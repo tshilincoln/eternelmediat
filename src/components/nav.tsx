@@ -18,7 +18,7 @@ export default function Navig(){
                             </li>
                             <li className="py-4 md:py-0 md:mr-2 duration-500 p-1 m-1">
                                 <Link href="#service" className="w-full navigation">service</Link>
-                            </li>
+                            </li> 
                         </ul>
                         <ul className="hidden top-0 md:flex items-center gap-1  text-xl">
                             <li className="py-4 md:py-0 md:mr-2 duration-500 p-1 m-1">
