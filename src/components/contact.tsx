@@ -24,7 +24,7 @@ export default function Contact(){
 
     return (
         <>
-            <section className="p-8">
+            <div className="p-8">
                 <div className="text-center">
                     <p className="uppercase text-gray-500">what we can do for you</p>
                     <br />
@@ -33,7 +33,7 @@ export default function Contact(){
                 </div>
 
                 {/* Contact form */}
-                <div className="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
+                <div className="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-7">
 
                   <form
                     action={envoieMail} method="POST" className="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
@@ -86,7 +86,7 @@ export default function Contact(){
                     </div>
                   </form>
                 </div>
-            </section>
+            </div>
         </>
     )
 

@@ -4,7 +4,7 @@ export default function Service(){
 
     return (
         <>
-            <section className="relative sec-bg py-6">
+            <div className="relative sec-bg py-6">
                 <div className="text-center">
                     <p className="uppercase text-gray-500">Que pouvons nous faire pour vous</p>
                     <br />
@@ -70,7 +70,7 @@ export default function Service(){
                     </div>
 
                 </div>
-            </section>
+            </div>
         </>
     )
 }

@@ -55,6 +55,12 @@ body{
 .neo-shadow{ box-shadow: var(--neo-box-shadow);}
 .sec-text-colore{color: var(--sec-text-color);}
 
+::-webkit-scrollbar{height: 0;width: .5rem;}
+::-webkit-scrollbar-track{background: var(--sec-bg-color);}
+::-webkit-scrollbar-thumb{background: var(--hover-color); border-radius: 5rem;}
+
+
+
 body {
   font-family: 'Poppins', sans-serif;
   background-color: var(--bg-color);
@@ -283,4 +289,16 @@ svg circle:nth-child(2){stroke-dasharray: 220;stroke-dashoffset: 22O;}
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(20 184 166 / var(--tw-ring-opacity));
 
+}
+.bg-menu{
+  background: var(--bg-color);
+}
+@media (min-width: 768px) {
+  .bg-menu{
+    background: none;
+  }
+}
+
+.acti.active{
+  color: var(--hover-color);
 }

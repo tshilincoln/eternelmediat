@@ -14,7 +14,6 @@ export default function Skils(){
         return <>
             <div className="box my-2 mx-0 flex-auto relative items-center justify-center">
                 <div className="circle flex">
-                    
                     {dotsTab.map((dotsTab,k) =>  <div key={k} className="points" style={{"--i": k, '--rot': rotat + 'deg'} as React.CSSProperties}></div>)}
                     {tt.map((e,k) => <div key={k} className="points2" style={{"--i": k , '--rot': rotat + 'deg'} as React.CSSProperties}></div>)}
                     <Link href={"#"} className="absolute text-3xl text-col p-1 rounded-lm">{icons}</Link>
@@ -26,7 +25,7 @@ export default function Skils(){
 
     return (
         <>
-            <section className=" w-full p-8">
+            <div className=" w-full p-8">
                 <div className="text-center">
                     <p className="uppercase text-gray-500">what we can do for you</p>
                     <br />
@@ -85,7 +84,7 @@ export default function Skils(){
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
         </>
     )
 

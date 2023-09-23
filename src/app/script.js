@@ -1,17 +1,16 @@
 
 
+const toggleMenuBtn= document.querySelector('#menu-btn');
+const toggleMenuico= document.querySelector('#menu-btn a');
+const toggleMenu= document.querySelector('#toggled-menu');
+const toggleMenuLinks= document.querySelector('#avig ul li Link');
 
-const circles = document.querySelectorAll('.circle');
-circles.forEach(elem=>{
-    var dots = elem.getAttribute('data-dots');
-    var marked = elem.getAttribute('data-percent');
-    var percent = Math.floor(dots*marked/100);
-    var points = "";
-    var rotate = 360 / dots;
+toggleMenuBtn.addEventListener("click", toggleNave);
 
+function toggleNave(){
+    toggleMenu.classList.toogle('-translate-y-full')
 
-    for(let i = 0 ; i < dots ; i++){
-        points += '<div className="points" style="--i:${i}; --rot:${rotate}deg"></div>';
+    if(toggleMenu.classList.contains('-translate-y-full')){
+        toggleMenuico.innerHTML=<FaTimes/>
     }
-    elem.innerHTML = points;
-}) 
+}

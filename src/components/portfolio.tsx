@@ -5,7 +5,7 @@ export default function Portfolio(){
 
     return (
         <>
-            <section className="p-8 sec-bg">
+            <div className="p-8 sec-bg">
                 <div className="text-center">
                     <p className="uppercase text-gray-500">mes realisations</p>
                     <br />
@@ -93,7 +93,7 @@ export default function Portfolio(){
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
 
         </>
     )
