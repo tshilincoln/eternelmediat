@@ -8,7 +8,7 @@ export default function Header(){
 
     return (
         <>
-            <div className="min-h-screen bg-[url('/mariage.jpg')] relative"> 
+            <div className="min-h-screen bg-[url('/mariage.jpg')] relative">   
                 
                 <div className="absolute h-full w-full flex justify-center items-center p-3" >
                     
@@ -18,8 +18,9 @@ export default function Header(){
                         <div className="w-full h-full md:w-4/6 lg:3/6 relative float-right flex items-center justify-center ">
                             <div className="block absolute justify-center text-xl font-bold md:text-4xl">
                                 <h1 className="text-center text-5xl md:text-7xl">Bienvenu chez</h1><br />
-                                <h1 className="titre text-center text-col text-6xl md:text-8xl contouretexte">Eternel Mediat</h1>
+                                <h1 className="titre text-center text-col text-6xl contouretexte md:text-8xl">Eternel Mediat</h1>
                                 <br />
+                                <p className="uppercase  text-center">l'agence de multimédia qui vous accompagne dans tous vos projets visuels.</p>
                                 
                             </div>
                         </div>

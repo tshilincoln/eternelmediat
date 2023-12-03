@@ -27,9 +27,9 @@ export default function Skils(){
         <>
             <div className=" w-full p-8">
                 <div className="text-center">
-                    <p className="uppercase text-gray-500">what we can do for you</p>
+                    <p className="uppercase text-gray-500">De quoi suis capable </p>
                     <br />
-                    <h1 className="primarri-coor-text font-extrabold text-3xl md:text-5xl">Skils</h1>
+                    <h1 className="primarri-coor-text font-extrabold text-3xl md:text-5xl">Compétance</h1>
                     <br />
                     
                 </div>

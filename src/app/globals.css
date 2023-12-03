@@ -167,7 +167,10 @@ svg circle:nth-child(2){stroke-dasharray: 220;stroke-dashoffset: 22O;}
     box-shadow: var(--neo-box-shadow);
   }
 }
-
+/*----header-----*/
+.bg-teste{
+  background-image: url('./mariage.jpg');
+}
 
 .professional{
   grid-template-columns: 1fr 1fr;
@@ -213,7 +216,7 @@ svg circle:nth-child(2){stroke-dasharray: 220;stroke-dashoffset: 22O;}
   color: var(--hover-color);
 }
 .gallery{
-  grid-template-columns: repeat(auto-fill , minmax(270px, 1fr));
+  grid-template-columns: repeat(auto-fill , minmax(300px, 1fr));
   gap: 2rem;
 }
 .port-box{
@@ -302,3 +305,30 @@ svg circle:nth-child(2){stroke-dasharray: 220;stroke-dashoffset: 22O;}
 .acti.active{
   color: var(--hover-color);
 }
+button.btn-x{
+  transition: .6s; z-index: 1;
+}
+/*button.btn-x:hover{color: var(--hover-color);}*/
+button.btn-x::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  z-index: 10;
+  translate: .4;
+  background: red;
+}
+button.btn-x:hover::before{width: 100%;}
+
+
+/*----paralax-----*/
+/*
+.scroll-scale{opacity: 0; transform: scale(0.9); transition: all 3s;}
+.scroll-top{opacity: 0; transform: translateY(300px); transition: all 3s;}
+.scrool-bottom{opacity: 0; transform: translateY(-300px); transition: all 3s;}
+.show-item{opacity: 1; transform: translateX(0);}
+*/
+
+

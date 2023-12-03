@@ -31,3 +31,17 @@
                                     </ul>
                                 </div>
                             </nav>
+
+                            /*let pp = IntersectionObserver;
+                            const observer =new pp ((entries)=>{
+                                entries.forEach((entry)=>{
+                                    if(entry.isIntersecting){
+                                        entry.target.classList.add('show-intem');
+                                    }else{
+                                        entry.target.classList.remove('show-items');
+                                    }
+                                });
+                            });
+
+                            const scrollScale = document.querySelectorAll('scroll-scale');
+                            scrollScale.forEach((el)=>observer.observe(el));*/

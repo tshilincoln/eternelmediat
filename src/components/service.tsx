@@ -21,8 +21,16 @@ export default function Service(){
                         </p>
                     </div>
                     <div className="prim-bg rounded-lg p-4 text-center justify-center bg-3 duration-700">
+                        <h1 className="primarri-coor-text font-extrabold text-2xl md:text-3xl mb-2">Videos</h1>
+                        <img className="m-auto block w-11/12" src="/illustration/videos.svg" alt="" />
+                        <p className="">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, quaerat?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, ab!
+                        </p>
+                    </div>
+                    <div className="prim-bg rounded-lg p-4 text-center justify-center bg-3 duration-700">
                         <h1 className="primarri-coor-text font-extrabold text-2xl md:text-3xl mb-2">Design</h1>
-                        <img className="m-auto block w-11/12" src="/illustration/design.svg" alt="" />
+                        <img className="m-auto block w-11/12" src="/illustration/des.svg" alt="" />
                         <p className="">
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, quaerat?
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, ab!
@@ -37,8 +45,16 @@ export default function Service(){
                         </p>
                     </div>
                     <div className="prim-bg rounded-lg p-4 text-center justify-center bg-3 duration-700">
-                        <h1 className="primarri-coor-text font-extrabold text-2xl md:text-3xl mb-2">Fashon</h1>
-                        <img className="m-auto block w-11/12" src="/illustration/fashon.svg" alt="" />
+                        <h1 className="primarri-coor-text font-extrabold text-2xl md:text-3xl mb-2">Documentaire</h1>
+                        <img className="m-auto block w-11/12" src="/illustration/docum.svg" alt="" />
+                        <p className="">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, quaerat?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, ab!
+                        </p>
+                    </div>
+                    <div className="prim-bg rounded-lg p-4 text-center justify-center bg-3 duration-700">
+                        <h1 className="primarri-coor-text font-extrabold text-2xl md:text-3xl mb-2">Animation 2D-3D</h1>
+                        <img className="m-auto block w-11/12" src="/illustration/design.svg" alt="" />
                         <p className="">
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, quaerat?
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, ab!
@@ -60,7 +76,21 @@ export default function Service(){
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, ab!
                         </p>
                     </div>
-                    <div className="prim-bg rounded-lg p-4 text-center justify-center bg-3  duration-700">
+                    
+                </div>
+            </div>
+        </>
+    )
+
+}
+
+
+
+
+
+/* 
+
+<div className="prim-bg rounded-lg p-4 text-center justify-center bg-3  duration-700">
                         <h1 className="primarri-coor-text font-extrabold text-2xl md:text-3xl mb-2">Graphisme</h1>
                         <img className="m-auto block w-11/12" src="/illustration/grphismesurbois.svg" alt="" />
                         <p className="">
@@ -69,8 +99,4 @@ export default function Service(){
                         </p>
                     </div>
 
-                </div>
-            </div>
-        </>
-    )
-}
+*/
