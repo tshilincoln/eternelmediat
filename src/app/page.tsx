@@ -45,9 +45,9 @@ export default function Home() {
         <section className='h-screen w-full'></section> 
         <section className='w-full sticky top-0 prim-bg h-12 md:h-14 z-10'></section>       
         <section id='about' ref={sectionRef} className='scroll-scale'><About/></section>
-        <section id='service' ref={sectionRef} className='scrool-bottom mt-7'><Service/></section>
-        <section id="skils" ref={sectionRef} className='scroll-scale'><Skils/></section>
         <section id='portfolio' ref={sectionRef} className='scrool-bottom'><Portfolio/></section>
+        <section id="skils" ref={sectionRef} className='scroll-scale'><Skils/></section>
+        <section id='service' ref={sectionRef} className='scrool-bottom mt-7'><Service/></section>
         <section id='contact' ref={sectionRef} className='scrool-bottom'><Contact/></section>
         <section><Copyright/></section>
 

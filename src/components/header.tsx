@@ -3,6 +3,7 @@ import { FaInstagramSquare, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
 import { ImFacebook2} from "react-icons/im";
 import { SiGmail} from "react-icons/si";
 import { BsFillTelephoneOutboundFill } from "react-icons/bs";
+import { Link } from "react-scroll";
 
 export default function Header(){
 
@@ -18,7 +19,8 @@ export default function Header(){
                         <div className="w-full h-full md:w-4/6 lg:3/6 relative float-right flex items-center justify-center ">
                             <div className="block absolute justify-center text-xl font-bold md:text-4xl">
                                 <h1 className="text-center text-5xl md:text-7xl">Bienvenu chez</h1><br />
-                                <h1 className="titre text-center text-col text-6xl contouretexte md:text-8xl">Eternel Mediat</h1>
+                               <img className="text-red-700 w-96 md:flex md:items-center md:justify-center" src="/mesphotos/logoeternel.svg"/>
+                               
                                 <br />
                                 <p className="uppercase  text-center">l'agence de multimédia qui vous accompagne dans tous vos projets visuels.</p>
                                 
@@ -27,12 +29,9 @@ export default function Header(){
                     </div>
                     <div className="absolute bottom-0 left-0 z-30 block text-2xl ml-8 mb-8 md:text-3xl md:ml-16 md:mb-16 ">
                         
-                        <a href="" className="navigation hover:text-3xl hover:md:text-5xl "><ImFacebook2/></a>
-                        <a href="" className="navigation hover:text-3xl hover:md:text-5xl  "><FaInstagramSquare/></a>
-                        <a href="" className="navigation hover:text-3xl hover:md:text-5xl  "><FaLinkedin/></a>
-                        <a href="" className="navigation hover:text-3xl hover:md:text-5xl  "><SiGmail/></a>
-                        <a href="" className="navigation hover:text-3xl hover:md:text-5xl "><FaTwitterSquare/></a>
-                        <a href="" className="navigation hover:text-3xl hover:md:text-5xl  "><BsFillTelephoneOutboundFill/></a>
+                        <a href="https://www.facebook.com/profile.php?id=100089783714720&mibextid=LQQJ4d" className="navigation hover:text-3xl hover:md:text-5xl "><ImFacebook2/></a>
+                        <a href="https://instagram.com/eternel_media?igshid=OGQ5ZDc2ODk2ZA==" className="navigation hover:text-3xl hover:md:text-5xl  "><FaInstagramSquare/></a>
+                        
                     </div>
                 </div>
 
@@ -40,3 +39,10 @@ export default function Header(){
         </>
     )
 }
+
+/**
+                        <a href="" className="navigation hover:text-3xl hover:md:text-5xl  "><FaLinkedin/></a>
+                        <a href="" className="navigation hover:text-3xl hover:md:text-5xl  "><SiGmail/></a>
+                        <a href="" className="navigation hover:text-3xl hover:md:text-5xl "><FaTwitterSquare/></a>
+                        <a href="" className="navigation hover:text-3xl hover:md:text-5xl  "><BsFillTelephoneOutboundFill/></a>
+ */

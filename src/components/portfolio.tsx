@@ -16,8 +16,7 @@ export default function Portfolio(){
         <>
             <div className="p-8 sec-bg">
                 <div className="text-center">
-                    <p className="uppercase text-gray-500">mes realisations</p>
-                    <br />
+
                     <h1 className="primarri-coor-text font-extrabold text-3xl md:text-5xl">Portfolio</h1>
                     <br />
                 </div>
@@ -61,39 +60,84 @@ export default function Portfolio(){
                     
                     <div className="port-box">
 
-                        <img width='100%' src="/mesphotos/IMG_2741.JPG" /> 
+                        <img width='100%' src="/mesphotos/2.JPG" /> 
 
                     </div>
                     <div className="port-box">
 
-                        <img width='100%' src="/mesphotos/IMG_3575 copie.JPG" /> 
+                        <img width='100%' src="/mesphotos/3.JPG" /> 
+
+                    </div>
+                    
+                    <div className="port-box">
+
+                        <img width='100%' src="/mesphotos/6.JPG" /> 
 
                     </div>
                     <div className="port-box">
 
-                        <img width='100%' src="/mesphotos/IMG_3537 copie.JPG" /> 
+                        <img width='100%' src="/mesphotos/7.JPG" /> 
 
                     </div>
                     <div className="port-box">
 
-                        <img width='100%' src="/mesphotos/IMG_2110 copie 2.JPG" /> 
+                        <img width='100%' src="/mesphotos/4.JPG" /> 
 
                     </div>
                     <div className="port-box">
 
-                        <img width='100%' src="/mesphotos/MAK (7).JPG" /> 
+                        <img width='100%' src="/mesphotos/22.JPG" /> 
+
+                    </div>
+                    
+                    <div className="port-box">
+
+                        <img width='100%' src="/mesphotos/9.JPG" /> 
 
                     </div>
                     <div className="port-box">
 
-                        <img width='100%' src="/mesphotos/DJI_0087.JPG" /> 
+                        <img width='100%' src="/mesphotos/11.JPG" /> 
 
                     </div>
                     <div className="port-box">
 
-                        <img width='100%' src="/mesphotos/DJI_0072.JPG" /> 
+                        <img width='100%' src="/mesphotos/12.JPG" /> 
 
                     </div>
+                    <div className="port-box">
+
+                        <img width='100%' src="/mesphotos/14.JPG" /> 
+
+                    </div>
+                    <div className="port-box">
+
+                        <img width='100%' src="/mesphotos/16.JPG" /> 
+
+                    </div>
+                    <div className="port-box">
+
+                        <img width='100%' src="/mesphotos/18.JPG" /> 
+
+                    </div>
+                    
+                    <div className="port-box">
+
+                        <img width='100%' src="/mesphotos/8.JPG" /> 
+
+                    </div>
+                    <div className="port-box">
+
+                        <img width='100%' src="/mesphotos/19.JPG" /> 
+
+                    </div>
+                    <div className="port-box">
+
+                        <img width='100%' src="/mesphotos/21.JPG" /> 
+
+                    </div>
+                    
+                  
                 </div>
             </div>
 

@@ -17,7 +17,7 @@ export default function Navig(){
             <nav id="navig" className="max-w-5xl mx-auto relative z-30 justify-between flex "> 
                    
                     <div className="md:absolute w-full text-left md:text-center">
-                        <Link to="home" smooth={true} spy={true} offset={0} className=" text-2xl md:text-3xl titre m-5">Eternet-Mediat</Link></div>
+                        <Link to="home" smooth={true} spy={true} offset={0} className=" c text-2xl md:text-3xl titre m-5"><img className="text-red-700 w-48 md:flex md:items-center md:justify-center" src="/mesphotos/logoeternel.svg"/> </Link></div>
                     <button aria-label="toggle button" aria-expanded="false" id="menu-btn"
                         className="cursor-pointer w-7 md:hidden text-4xl navigation mr-3"
                         onClick={() => setNavbar(!navbar)}>
@@ -39,10 +39,12 @@ export default function Navig(){
                                 className="acti w-full navigation duration-400">About</Link>
                             </li>
                             <li 
+                            
                             className="py-4 md:py-0 md:mr-2 p-1 m-1">
-                                <Link to="service" smooth={true} spy={true} offset={-40} onClick={() => setNavbar(!navbar)}
-                                className="acti w-full navigation duration-400">service</Link>
-                            </li> 
+                                <Link to="portfolio" smooth={true} spy={true} offset={-40} onClick={() => setNavbar(!navbar)}
+                                className="acti w-full navigation duration-400">Portfolio</Link>
+                            </li>
+                            
                         </ul>
                         <ul className=" top-0 md:flex items-center gap-1  text-xl w-full md:w-auto text-center">
                             <li 
@@ -52,11 +54,10 @@ export default function Navig(){
                                 className="acti w-full navigation duration-400">Skils</Link>
                             </li>
                             <li 
-                            
                             className="py-4 md:py-0 md:mr-2 p-1 m-1">
-                                <Link to="portfolio" smooth={true} spy={true} offset={-40} onClick={() => setNavbar(!navbar)}
-                                className="acti w-full navigation duration-400">Portfolio</Link>
-                            </li>
+                                <Link to="service" smooth={true} spy={true} offset={-40} onClick={() => setNavbar(!navbar)}
+                                className="acti w-full navigation duration-400">service</Link>
+                            </li> 
                             <li 
                             
                             className="py-4 md:py-0 md:mr-2 p-1 m-2">
