@@ -1,5 +1,5 @@
-import { FaGithub, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
-import { ImFacebook } from "react-icons/im";
+import { BsTelephone } from "react-icons/bs";
+import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 
 
@@ -12,10 +12,9 @@ export default function Copyright(){
         <p>Copyright © 2023 ClassDev-A_Tshibangu</p>
         <div className="left-0 z-30 flex text-lg md:text-2xl md:ml-16 md:mb-16 gap-3">
           <a href="mailto:tshiabraham@gmail.com" className=" "><SiGmail/></a>
-          <a href="" className=" "><ImFacebook/></a>
-          <a href="" className=" "><FaLinkedinIn/></a>
-          <a href="" className=" "><FaWhatsapp/></a>
-          <a href="" className=" "><FaGithub/></a>           
+          <a href="https://www.linkedin.com/in/abraham-tshibangu-92a5371a7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className=" "><FaLinkedinIn/></a>
+          <a href="https://wa.me/243811666472" className=" "><FaWhatsapp/></a>
+          <a href="tel:+243811666472" className=" "><BsTelephone/></a>           
         </div>
       </div>
     </>

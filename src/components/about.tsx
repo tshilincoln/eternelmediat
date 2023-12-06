@@ -18,12 +18,10 @@ export default function About(){
                     </div>
                     <div className="w-full sm:w-4/6 items-center justify-center text-center md:text-justify relative ">
                         <div className=" mt-6 py-1 px-10"> 
-                            <br />
-                            <br />
-                            <br />
-                            <h1 className="primarri-coor-text font-extrabold text-2xl md:text-4xl">Gédeon Tshibangu</h1>
-                            <br />
-                            <p className="text-sm text-justify md:text-lg">Je suis TSHIBANGU LUMUANGA Gédéon, Informaticien de formation et Chef et fondateur de
+                            
+                            <h1 className=" md:mt-5 lg-mt-8 primarri-coor-text font-extrabold text-2xl md:text-4xl">Gédeon Tshibangu</h1>
+                            
+                            <p className="text-sm text-justify lg:text-lg md:text-base">Je suis TSHIBANGU LUMUANGA Gédéon, Informaticien de formation et Chef et fondateur de
                                 l’agence <span className="primarri-coor-text">Eternel Média</span>. J’œuvres dans le domaine de multimédia depuis 2018, principalement en tant
                                 que photographe vidéaste (photo en studio, plein air, cérémonie, sortie médiatique, conférence, publicité,
                                 documentaire), infographiste et animateur 2D. Pour la petite histoire, j’ai commencé ma carrière en

@@ -16,17 +16,18 @@ export default function Navig(){
         <>
             <nav id="navig" className="max-w-5xl mx-auto relative z-30 justify-between flex "> 
                    
-                    <div className="md:absolute w-full text-left md:text-center">
-                        <Link to="home" smooth={true} spy={true} offset={0} className=" c text-2xl md:text-3xl titre m-5"><img className="text-red-700 w-48 md:flex md:items-center md:justify-center" src="/mesphotos/logoeternel.svg"/> </Link></div>
+                    <div className="absolute block w-full text-left md:text-center top-0">
+                        <Link to="home" smooth={true} spy={true} offset={0} className=" text-2xl md:text-3xl titre md:text-center"><img className=" mx-2 w-24 md:w-36 md:justify-center md:block md:m-auto" src="/mesphotos/logoeternel.svg"/> </Link>
+                    </div>
                     <button aria-label="toggle button" aria-expanded="false" id="menu-btn"
-                        className="cursor-pointer w-7 md:hidden text-4xl navigation mr-3"
+                        className="cursor-pointer w-7 md:hidden text-4xl navigation mr-3 absolute block right-0 "
                         onClick={() => setNavbar(!navbar)}>
                         {navbar ? (<a className="navigation hover:md:text-5xl "><FaTimes/></a>)
                         :(<a className="navigation hover:md:text-5xl "><RiMenu4Fill/></a> )}
                     </button>
                     <div className={ navbar ? 'block absolute w-full' : 'hidden md:block '}>
                     <div id="toggled-menu"
-                    className="absolute mt-12 md:mt-auto opacity-75 bg-menu rounded-2xl w-full md:w-11/12 md:flex items-center justify-center md:justify-between text-sm md:text-base font-semibold text-shad z-20 gap-1 md:gap-0 duration-500">
+                    className="absolute mt-12 md:mt-auto opacity-75 bg-menu rounded-2xl w-full px-6 md:flex items-center justify-center md:justify-between text-sm md:text-base font-semibold text-shad z-20 gap-1 md:gap-0 duration-500">
                         <ul className="md:flex  top-0 items-center gap-1 text-xl w-full md:w-auto text-center">
                             <li 
                             className="py-4 md:py-0 md:mr-2 p-1 m-2">

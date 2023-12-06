@@ -1,9 +1,7 @@
 
-import { FaInstagramSquare, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
+import { FaInstagramSquare} from "react-icons/fa";
 import { ImFacebook2} from "react-icons/im";
-import { SiGmail} from "react-icons/si";
-import { BsFillTelephoneOutboundFill } from "react-icons/bs";
-import { Link } from "react-scroll";
+
 
 export default function Header(){
 
@@ -17,12 +15,12 @@ export default function Header(){
                     <div className="w-full h-full absolute z-20 mt-0 md:w-11/12 md:h-5/6 md:rounded-3xl">
                         
                         <div className="w-full h-full md:w-4/6 lg:3/6 relative float-right flex items-center justify-center ">
-                            <div className="block absolute justify-center text-xl font-bold md:text-4xl">
-                                <h1 className="text-center text-5xl md:text-7xl">Bienvenu chez</h1><br />
-                               <img className="text-red-700 w-96 md:flex md:items-center md:justify-center" src="/mesphotos/logoeternel.svg"/>
+                            <div className="block absolute justify-center text-xl font-bold md:text-4xl text-center">
+                                <h1 className="text-center text-5xl md:text-6xl">Bienvenu chez</h1><br />
+                               <img className="text-red-700 w-60 md:w-80 md:flex md:items-center block m-auto md:justify-center" src="/mesphotos/logoeternel.svg"/>
                                
                                 <br />
-                                <p className="uppercase  text-center">l'agence de multimédia qui vous accompagne dans tous vos projets visuels.</p>
+                                <p className="uppercase  text-center text-sm md:text-lg">l'agence de multimédia qui vous accompagne dans tous vos projets visuels.</p>
                                 
                             </div>
                         </div>

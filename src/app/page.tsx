@@ -16,8 +16,10 @@ import { MutableRefObject, useEffect, useRef, useState } from 'react';
 
 export default function Home() {
   
+  
   const sectionRef = useRef() as MutableRefObject<HTMLInputElement>;
   
+  /*
   useEffect(() => {
     const observer =new IntersectionObserver (entries=>{
       if(entries[0].isIntersecting) {
@@ -25,14 +27,14 @@ export default function Home() {
         observer.unobserve(sectionRef.current)
       }
     })
-    //observer.observe(sectionRef.current);
+    observer.observe(sectionRef.current);
     if (sectionRef?.current) {
       observer.observe(sectionRef.current);
     }
   }, []);
 
 
-
+*/
   return (
     <>
       <Head>
@@ -40,7 +42,7 @@ export default function Home() {
       </Head>
 
       <main> 
-        <section className='md:mt-12 sticky z-30 h-12 md:h-14 top-0 py-3'><Navig/></section>
+        <section className='md:mt-12 sticky z-30 h-12 md:h-14 top-0 py-2'><Navig/></section>
         <section id='home' ref={sectionRef} className='scroll-scale absolute w-full top-0 z-20'><Header/></section>
         <section className='h-screen w-full'></section> 
         <section className='w-full sticky top-0 prim-bg h-12 md:h-14 z-10'></section>       
