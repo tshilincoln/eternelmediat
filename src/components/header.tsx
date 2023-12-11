@@ -16,7 +16,8 @@ export default function Header(){
                         
                         <div className="w-full h-full md:w-4/6 lg:3/6 relative float-right flex items-center justify-center ">
                             <div className="block absolute justify-center text-xl font-bold md:text-4xl text-center">
-                                <h1 className="text-center text-5xl md:text-6xl">Bienvenu chez</h1><br />
+                                <h1 className="text-center text-5xl md:text-6xl">Bienvenu chez</h1>
+                                <br />
                                <img className="text-red-700 w-60 md:w-80 md:flex md:items-center block m-auto md:justify-center" src="/mesphotos/logoeternel.svg"/>
                                
                                 <br />

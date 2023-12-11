@@ -20,15 +20,7 @@ export default function Portfolio(){
                     <h1 className="primarri-coor-text font-extrabold text-3xl md:text-5xl">Portfolio</h1>
                     <br />
                 </div>
-                <div className="container hidden">
-                    <div className="flit-button text-center m-8">
-                        <button className="btn bg-none outline-none cursor-pointer text-xl ">Tous</button>
-                        <button className="btn">Videos</button>
-                        <button className="btn">Photos</button>
-                        <button className="btn">Design</button>
-                        <button className="btn">Impression</button>
-                    </div>
-                </div>
+                
                 <div className="gallery grid mb-6">
                     <div className="port-box">
 
@@ -169,4 +161,23 @@ presentatin initiale
                             <Link href={""}>icone du lien de l'image</Link>
                         </div>
                     </div>
+
+
+
+
+
+
+
+
+
+
+                    <div className="container hidden">
+                    <div className="flit-button text-center m-8">
+                        <button className="btn bg-none outline-none cursor-pointer text-xl ">Tous</button>
+                        <button className="btn">Videos</button>
+                        <button className="btn">Photos</button>
+                        <button className="btn">Design</button>
+                        <button className="btn">Impression</button>
+                    </div>
+                </div>
                     */

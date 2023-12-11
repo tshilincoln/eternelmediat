@@ -6,6 +6,7 @@ import { SiGmail } from 'react-icons/si';
 
 
 export default function Contact(){
+  /*
   async function envoieMail(event:any) {
     const { register, handleSubmit, formState: { errors } } = useForm();
     const data ={
@@ -24,6 +25,7 @@ export default function Contact(){
     }
 
   }
+  */
 
     return (
         <>

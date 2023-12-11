@@ -17,7 +17,7 @@ export default function Navig(){
             <nav id="navig" className="max-w-5xl mx-auto relative z-30 justify-between flex "> 
                    
                     <div className="absolute block w-full text-left md:text-center top-0">
-                        <Link to="home" smooth={true} spy={true} offset={0} className=" text-2xl md:text-3xl titre md:text-center"><img className=" mx-2 w-24 md:w-36 md:justify-center md:block md:m-auto" src="/mesphotos/logoeternel.svg"/> </Link>
+                          <img className=" mx-2 w-24 md:w-36 md:justify-center md:block md:m-auto" src="/mesphotos/logoeternel.svg"/>
                     </div>
                     <button aria-label="toggle button" aria-expanded="false" id="menu-btn"
                         className="cursor-pointer w-7 md:hidden text-4xl navigation mr-3 absolute block right-0 "
