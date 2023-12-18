@@ -52,9 +52,6 @@ export default function Home() {
         <section id='service' className='scrool-bottom mt-7 i'><Service/></section>
         <section id='contact'className='scrool-bottom'><Contact/></section>
         <section><Copyright/></section>
-
-        
-
       </main>
     </>
     
