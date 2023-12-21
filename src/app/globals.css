@@ -39,7 +39,7 @@ body{
   0 0 150px rgba(18,247,255,0.3);
   
 }
-/*
+
 @media (prefers-color-scheme: dark) {
   :root {
     --bg-color: #162129;
@@ -50,7 +50,7 @@ body{
     --sec-text-color: #162129;
   }
 }
-*/
+
 .text-col{color: var(--hover-color);}
 .hover-col{ background-color: var(--hover-color);}
 .neo-shadow{ box-shadow: var(--neo-box-shadow);}
