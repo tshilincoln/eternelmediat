@@ -18,10 +18,10 @@ export default function Header(){
                             <div className="block absolute justify-center text-xl font-bold md:text-4xl text-center">
                                 <h1 className="text-center text-5xl md:text-6xl">Bienvenu chez</h1>
                                 <br />
-                               <img className="text-red-700 w-60 md:w-80 md:flex md:items-center block m-auto md:justify-center" src="/mesphotos/logoeternel.svg"/>
+                               <img className="text-red-700 w-60 md:w-80 md:flex md:items-center block m-auto md:justify-center" src="logoeternel.png"/>
                                
                                 <br />
-                                <p className="uppercase  text-center text-sm md:text-lg">l'agence de multimédia qui vous accompagne dans tous vos projets visuels.</p>
+                                <p className="uppercase  text-center text-sm md:text-lg spaceLettreMenu">l'agence de multimédia qui vous accompagne dans tous vos projets visuels.</p>
                                 
                             </div>
                         </div>

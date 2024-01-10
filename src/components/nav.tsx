@@ -17,7 +17,7 @@ export default function Navig(){
             <nav id="navig" className="max-w-5xl mx-auto relative z-30 justify-between flex "> 
                    
                     <div className="absolute block w-full text-left md:text-center top-0">
-                          <img className=" mx-2 w-24 md:w-36 md:justify-center md:block md:m-auto" src="/mesphotos/logoeternel.svg"/>
+                          <img className=" mx-2 w-24 md:w-36 md:justify-center md:block md:m-auto" src="logoeternel.png"/>
                     </div>
                     <button aria-label="toggle button" aria-expanded="false" id="menu-btn"
                         className="cursor-pointer w-7 md:hidden text-4xl navigation mr-3 absolute block right-0 "
@@ -27,8 +27,8 @@ export default function Navig(){
                     </button>
                     <div className={ navbar ? 'block absolute w-full' : 'hidden md:block '}>
                     <div id="toggled-menu"
-                    className="absolute mt-12 md:mt-auto opacity-75 bg-menu rounded-2xl w-full px-6 md:flex items-center justify-center md:justify-between text-sm md:text-base font-semibold text-shad z-20 gap-1 md:gap-0 duration-500">
-                        <ul className="md:flex  top-0 items-center gap-1 text-xl w-full md:w-auto text-center">
+                    className="absolute mt-12 md:mt-auto opacity-75 bg-menu rounded-2xl w-full px-6 md:flex items-center justify-center md:justify-between text-shad z-20 gap-1 md:gap-0 duration-500 policeMenu uppercase">
+                        <ul className="md:flex  top-0 items-center gap-1 w-full md:w-auto text-center text-sm md:text-base spaceLettreMenu">
                             <li 
                             className="py-4 md:py-0 md:mr-2 p-1 m-2">
                                 <Link to="home" smooth={true} spy={true} offset={0} onClick={() => setNavbar(!navbar)}
@@ -47,7 +47,7 @@ export default function Navig(){
                             </li>
                             
                         </ul>
-                        <ul className=" top-0 md:flex items-center gap-1  text-xl w-full md:w-auto text-center">
+                        <ul className=" top-0 md:flex items-center gap-1 w-full md:w-auto text-center text-sm md:text-base spaceLettreMenu">
                             <li 
                             
                             className="py-4 md:py-0 md:mr-2 p-1 m-1">
