@@ -26,12 +26,7 @@ export default function Header(){
                             </div>
                         </div>
                     </div>
-                    <div className="absolute bottom-0 left-0 z-30 block text-2xl ml-8 mb-8 md:text-3xl md:ml-16 md:mb-16 ">
-                        
-                        <a href="https://www.facebook.com/profile.php?id=100089783714720&mibextid=LQQJ4d" className="navigation hover:text-3xl hover:md:text-5xl "><ImFacebook2/></a>
-                        <a href="https://instagram.com/eternel_media?igshid=OGQ5ZDc2ODk2ZA==" className="navigation hover:text-3xl hover:md:text-5xl  "><FaInstagramSquare/></a>
-                        
-                    </div>
+
                 </div>
 
             </div>
@@ -39,9 +34,3 @@ export default function Header(){
     )
 }
 
-/**
-                        <a href="" className="navigation hover:text-3xl hover:md:text-5xl  "><FaLinkedin/></a>
-                        <a href="" className="navigation hover:text-3xl hover:md:text-5xl  "><SiGmail/></a>
-                        <a href="" className="navigation hover:text-3xl hover:md:text-5xl "><FaTwitterSquare/></a>
-                        <a href="" className="navigation hover:text-3xl hover:md:text-5xl  "><BsFillTelephoneOutboundFill/></a>
- */

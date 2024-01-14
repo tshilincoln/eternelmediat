@@ -6,6 +6,7 @@ import Copyright from '@/components/copyright'
 import Header from '@/components/header'
 import Navig from '@/components/nav'
 import Portfolio from '@/components/portfolio'
+import RSociaux from '@/components/rSociaux'
 import Service from '@/components/service'
 import Skils from '@/components/skils'
 import Head from 'next/head'
@@ -51,6 +52,7 @@ export default function Home() {
         <section id="skils" className='scroll-scale'><Skils/></section>
         <section id='service' className='scrool-bottom mt-7 i'><Service/></section>
         <section id='contact'className='scrool-bottom'><Contact/></section>
+        <section id='contact'className='scrool-bottom fixed bottom-0 left-0 z-50 flex'><RSociaux/></section>
         <section><Copyright/></section>
       </main>
     </>
