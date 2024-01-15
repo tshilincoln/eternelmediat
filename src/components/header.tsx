@@ -21,7 +21,7 @@ export default function Header(){
                                <img className="text-red-700 w-60 md:w-80 md:flex md:items-center block m-auto md:justify-center" src="logoeternel.png"/>
                                
                                 <br />
-                                <p className="uppercase  text-center text-sm md:text-lg spaceLettreMenu">l'agence de multimédia qui vous accompagne dans tous vos projets visuels.</p>
+                                <p className="text-center text-sm md:text-lg spaceLettreMenu">L'agence de multimédia qui vous accompagne dans tous vos projets visuels.</p>
                                 
                             </div>
                         </div>
