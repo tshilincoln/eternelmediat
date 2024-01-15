@@ -52,7 +52,7 @@ export default function Portfolio(){
                     
                     <div className="port-box">
 
-                        <img width='100%' src="/mesphotos/2.JPG" /> 
+                        <img width='100%' src="/services/2.JPG"/> 
 
                     </div>
                     <div className="port-box">
