@@ -7,7 +7,7 @@ export default function Header(){
 
     return (
         <>
-            <div className=" h-2/5 sm:min-h-screen sm:bg-[url('/mariage.jpg')] relative">   
+            <div className=" min-h-2/5 sm:min-h-screen sm:bg-[url('/mariage.jpg')] relative">   
                 
                 <div className="absolute h-full w-full flex justify-center items-center p-3" >
                     
