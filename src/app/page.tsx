@@ -47,7 +47,7 @@ export default function Home() {
         <section id='home'  className='scroll-scale absolute w-full top-0 z-20'><Header/></section>
         <section className='h-screen w-full'></section> 
         <section className='w-full sticky top-0 prim-bg h-12 md:h-14 z-10'></section>       
-        <section id='about' className='scroll-scale'><About/></section>
+
         <section id='portfolio' className='scrool-bottom'><Portfolio/></section>
         <section id="skils" className='scroll-scale'><Skils/></section>
         <section id='service' className='scrool-bottom mt-7 i'><Service/></section>
@@ -59,3 +59,5 @@ export default function Home() {
     
   )
 }
+
+//        <section id='about' className='scroll-scale'><About/></section>
