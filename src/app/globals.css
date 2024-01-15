@@ -110,7 +110,7 @@ body {
   animation: slide 12s steps(5) infinite;
 }
 .spaceLettreMenu{
-  letter-spacing: 0.25rem;
+  letter-spacing: 0.2rem;
 }
 
 @keyframes slide {

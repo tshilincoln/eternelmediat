@@ -35,25 +35,20 @@ export default function Navig(){
                                 className="acti w-full navigation duration-400">Home</Link>
                             </li>
                             <li 
-                            className="py-4 md:py-0 md:mr-2 p-1 m-1">
-                                <Link to="about" smooth={true} spy={true} offset={-55} onClick={() => setNavbar(!navbar)}
-                                className="acti w-full navigation duration-400">A propos</Link>
-                            </li>
-                            <li 
                             
                             className="py-4 md:py-0 md:mr-2 p-1 m-1">
                                 <Link to="portfolio" smooth={true} spy={true} offset={-40} onClick={() => setNavbar(!navbar)}
                                 className="acti w-full navigation duration-400">Portfolio</Link>
                             </li>
-                            
-                        </ul>
-                        <ul className=" top-0 md:flex items-center gap-1 w-full md:w-auto text-center text-sm md:text-base spaceLettreMenu">
                             <li 
                             
                             className="py-4 md:py-0 md:mr-2 p-1 m-1">
                                 <Link to="skils" smooth={true} spy={true} offset={-40} onClick={() => setNavbar(!navbar)}
                                 className="acti w-full navigation duration-400">Compétences</Link>
                             </li>
+                        </ul>
+                        <ul className=" top-0 md:flex items-center gap-1 w-full md:w-auto text-center text-sm md:text-base spaceLettreMenu">
+                            
                             <li 
                             className="py-4 md:py-0 md:mr-2 p-1 m-1">
                                 <Link to="service" smooth={true} spy={true} offset={-40} onClick={() => setNavbar(!navbar)}
