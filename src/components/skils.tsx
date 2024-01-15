@@ -28,7 +28,7 @@ export default function Skils(){
             <div className=" w-full p-8">
                 <div className="text-center">
                     
-                    <h1 className="primarri-coor-text font-extrabold text-3xl md:text-5xl">Compétance</h1>
+                    <h1 className="primarri-coor-text font-extrabold text-3xl md:text-5xl">Compétence</h1>
                     <br />
                     
                 </div>

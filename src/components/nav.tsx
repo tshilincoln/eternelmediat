@@ -52,7 +52,7 @@ export default function Navig(){
                             
                             className="py-4 md:py-0 md:mr-2 p-1 m-1">
                                 <Link to="skils" smooth={true} spy={true} offset={-40} onClick={() => setNavbar(!navbar)}
-                                className="acti w-full navigation duration-400">Skils</Link>
+                                className="acti w-full navigation duration-400">Compétences</Link>
                             </li>
                             <li 
                             className="py-4 md:py-0 md:mr-2 p-1 m-1">
