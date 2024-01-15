@@ -27,13 +27,23 @@ body{
 
 
 :root {
+  /*
   --text-color: #202020;
   --sec-text-color: #ffffff;
-  --hover-color: #12f7ff;
   --bg-color: #ffffff;
   --sec-bg-color: #e6e3e3;
   --tre-bg-color: #162129;
   --grad-color: #9b9e9e;
+  */
+
+  --text-color: #ffffff;
+  --sec-text-color: #162129;
+  --bg-color: #162129;
+  --sec-bg-color: #132232;
+  --tre-bg-color: #ffffff;
+  --grad-color: #0e2236;
+
+  --hover-color: #12f7ff;
   --big-font:2.5rem;
   --normal-font:2rem;
   --neo-box-shadow:0 0 .5rem #12f7ff;
@@ -47,16 +57,18 @@ body{
   0 0 150px rgba(18,247,255,0.3);
   
 }
+/*
 @media (prefers-color-scheme: dark) {
   :root {
+    --text-color: #ffffff;
+    --sec-text-color: #162129;
     --bg-color: #162129;
     --sec-bg-color: #132232;
-    --text-color: #ffffff;
     --tre-bg-color: #ffffff;
     --grad-color: #0e2236;
-    --sec-text-color: #162129;
   }
 }
+*/
 
 .text-col{color: var(--hover-color);}
 .hover-col{ background-color: var(--hover-color);}

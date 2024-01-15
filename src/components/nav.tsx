@@ -37,7 +37,7 @@ export default function Navig(){
                             <li 
                             className="py-4 md:py-0 md:mr-2 p-1 m-1">
                                 <Link to="about" smooth={true} spy={true} offset={-55} onClick={() => setNavbar(!navbar)}
-                                className="acti w-full navigation duration-400">About</Link>
+                                className="acti w-full navigation duration-400">A propos</Link>
                             </li>
                             <li 
                             
