@@ -57,85 +57,85 @@ export default function Portfolio(){
                     </div>
                     <div className="port-box">
 
-                        <img width='100%' src="/mesphotos/3.JPG" /> 
+                        <img width='100%' src="/services/3.jpg" /> 
 
                     </div>
                     
                     <div className="port-box">
 
-                        <img width='100%' src="/mesphotos/6.JPG" /> 
+                        <img width='100%' src="/services/6.jpg" /> 
 
                     </div>
                     <div className="port-box">
 
-                        <img width='100%' src="/mesphotos/7.JPG" /> 
+                        <img width='100%' src="/services/7.jpg" /> 
 
                     </div>
                     <div className="port-box">
 
-                        <img width='100%' src="/mesphotos/4.JPG" /> 
+                        <img width='100%' src="/services/4.jpg" /> 
 
                     </div>
                     <div className="port-box">
 
-                        <img width='100%' src="/mesphotos/22.JPG" /> 
-
-                    </div>
-                    
-                    <div className="port-box">
-
-                        <img width='100%' src="/mesphotos/9.JPG" /> 
-
-                    </div>
-                    <div className="port-box">
-
-                        <img width='100%' src="/mesphotos/11.JPG" /> 
-
-                    </div>
-                    <div className="port-box">
-
-                        <img width='100%' src="/mesphotos/12.JPG" /> 
-
-                    </div>
-                    <div className="port-box">
-
-                        <img width='100%' src="/mesphotos/14.JPG" /> 
-
-                    </div>
-                    <div className="port-box">
-
-                        <img width='100%' src="/mesphotos/16.JPG" /> 
+                        <img width='100%' src="/services/22.jpg" /> 
 
                     </div>
                     
                     <div className="port-box">
 
-                        <img width='100%' src="/mesphotos/18.JPG" /> 
+                        <img width='100%' src="/services/9.jpg" /> 
 
                     </div>
                     <div className="port-box">
 
-                        <img width='100%' src="/mesphotos/23.JPeG" /> 
+                        <img width='100%' src="/services/11.jpg" /> 
 
                     </div>
                     <div className="port-box">
 
-                        <img width='100%' src="/mesphotos/24.JPeG" /> 
+                        <img width='100%' src="/services/12.jpg" /> 
 
                     </div>
                     <div className="port-box">
 
-                        <img width='100%' src="/mesphotos/8.JPG" /> 
+                        <img width='100%' src="/services/14.jpg" /> 
 
                     </div>
                     <div className="port-box">
 
-                        <img width='100%' src="/mesphotos/19.JPG" /> 
+                        <img width='100%' src="/services/16.jpg" /> 
+
+                    </div>
+                    
+                    <div className="port-box">
+
+                        <img width='100%' src="/services/18.jpg" /> 
 
                     </div>
                     <div className="port-box">
 
-                        <img width='100%' src="/mesphotos/21.JPG" /> 
+                        <img width='100%' src="/services/23.jpeg" /> 
+
+                    </div>
+                    <div className="port-box">
+
+                        <img width='100%' src="/services/24.jpeg" /> 
+
+                    </div>
+                    <div className="port-box">
+
+                        <img width='100%' src="/services/8.jpg" /> 
+
+                    </div>
+                    <div className="port-box">
+
+                        <img width='100%' src="/services/19.jpg" /> 
+
+                    </div>
+                    <div className="port-box">
+
+                        <img width='100%' src="/services/21.jpg" /> 
 
                     </div>
                     
